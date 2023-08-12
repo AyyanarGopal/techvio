@@ -1,0 +1,172 @@
+
+@media(max-width: 1200px){
+    .it-solution{
+        padding: 50px;
+        gap: 50px;
+    } 
+}
+
+@media(max-width: 992px){
+    .get-started{
+        display: none;
+    }
+   .navbar .navbar-links{
+        display: none;
+    }
+    .menubar{
+        display: block;
+    }
+    .navbar{
+        justify-content: space-between;
+        padding: 10px 47px;
+    }
+
+    .showcase{
+        flex-direction: column;
+        padding: 70px;
+        text-align: center;
+    }
+
+    .showcase img{
+        width: 80%;
+    }
+  
+    .it-solution{
+        grid-template-columns: auto auto;
+        padding: 80px;
+    }
+
+    .footer1{
+        flex-wrap: wrap;
+    }
+
+    .footer1 .newsletter{
+        text-align: center;
+    }
+}
+
+@media(max-width: 850px){
+
+    .choose{
+        flex-wrap: wrap-reverse;
+        padding: 20px;
+    }
+    .choose > div{
+        flex: 100%;
+    }
+    .trust{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .trust > div{
+        flex: 100%;
+    }
+    .testiomanl-div{
+        justify-content: center;
+    }
+
+    .testiomanl-div .column{  
+        flex-basis: 50%;
+    }
+}
+
+@media(max-width: 786px){
+    .about{
+        flex-direction: column;
+    }
+    .team-gallery{
+       flex-wrap: wrap;
+    }
+    .showcase{
+
+        padding: 0px;
+
+    }
+}
+
+@media(max-width: 720px){
+    .it-solution{
+        grid-template-columns: auto;  
+        text-align: center;
+    }
+}
+
+@media(max-width: 600px){
+    .testiomanl-div .column{  
+        flex-basis: 100%;
+    }
+    .team-gallery{
+        flex-direction: column; 
+    }
+    
+    .footer2 > div{
+        flex: 100%;
+        text-align: center;
+    }
+   .footer2 .contact-info .common p{
+    padding-left: 0px;
+   }
+   .copyright{
+    flex-direction: column;
+    text-align: center;
+   }
+   .copyright p{
+    padding: 10px;
+   }
+}
+
+@media(max-width: 480px){
+    .it-solution{
+       padding: 20px; 
+    }
+    .about{
+        padding: 5px;
+    }
+ 
+    .testiomanl-div .column{
+        padding: 0px;
+    }
+    .showcase2 p{
+        padding: 0px;
+    }
+    .customer-gallery div img{
+        width: 200px; 
+    }
+
+}
+
+@media(max-width: 420px){
+    .showcase img{
+        width: 100%;
+    }
+    .showcase .text-div{
+        padding: 10px;
+    }
+}
+
+@media(max-width: 320px){
+    .navbar{
+        padding: 5px;
+    }
+    .team-gallery {
+        margin: 0px;
+    }
+    .customer-gallery div img{
+        width: 150px; 
+    }
+    .showcase .text-div .btn1{
+        margin: 10px;   
+    }
+}
+
+@media(max-width: 250px){
+    .choose .total-column{
+        flex-direction: column;
+    }
+    .trust .total-column{
+        flex-direction: column;
+    }
+    .customer-gallery{
+        padding: 0px;
+    }
+}
